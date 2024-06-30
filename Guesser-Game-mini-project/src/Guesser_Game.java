@@ -11,6 +11,7 @@ class Guesser
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Gusser Kindly Guess the number");
 		guessNum = sc.nextInt();
+		sc.close();
 		return guessNum;
 	}
 }
